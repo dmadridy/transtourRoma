@@ -12,10 +12,11 @@ const Header = () => {
       </div>
       <div className="flex justify-between mx-auto container max-w-6xl py-4">
         <div className="w-16 h-16"><img src={logo} alt="" /></div>
-        <section className="flex font-bold text-slate-600 gap-8 items-center">
-          <NavLink to='/'>NUESTROS SERVICIOS</NavLink>
-          <NavLink to='/nosotros'>NOSOTROS</NavLink>
-          <NavLink to='/contactanos'>CONTACTANOS</NavLink>
+        <section className="flex font-bold text-slate-600 items-center">
+          <NavLink className='duration-200 rounded hover:text-green-800 p-4 hover:bg-gray-100 hover:border-gray-300 border border-transparent' to='/'>INICIO</NavLink>
+          <NavLink className='duration-200 rounded hover:text-green-800 p-4 hover:bg-gray-100 hover:border-gray-300 border border-transparent' to='/servicios'>NUESTROS SERVICIOS</NavLink>
+          <div className='duration-200 rounded hover:text-green-800 p-4 hover:bg-gray-100 hover:border-gray-300 border border-transparent'>NOSOTROS</div>
+          <NavLink className='duration-200 rounded hover:text-green-800 p-4 hover:bg-gray-100 hover:border-gray-300 border border-transparent' to='/contactenos'>CONTACTANOS</NavLink>
         </section>
       </div>
     </>

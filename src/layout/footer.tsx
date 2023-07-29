@@ -1,3 +1,4 @@
+import { ArrowRight } from "lucide-react"
 import { NavLink } from "react-router-dom"
 
 const Footer = () => {
@@ -11,7 +12,10 @@ const Footer = () => {
           <section className="text-gray-300">
             <h1 className="text-white font-bold mb-4">QUIENES SOMOS</h1>
             <p className="text-sm mb-4">TRANSTOUR ROMA SAS, es una empresa dedicada al servicio del transporte especial de pasajeros, Empresarial, Turístico, Escolar, Usuarios de la Salud, de carga y a la operación logística en general.</p>
-            <p className="font-bold text-sm">Leer mas</p>
+            <div className="flex gap-2 items-center hover:last:translate-x-4 duration-200">
+              <p className="font-bold text-sm">Leer mas</p>
+              <ArrowRight className="h-5 w-5" />
+            </div>
           </section>
           <section className="text-gray-300">
             <h1 className="text-white font-bold mb-4">CONTACTENOS</h1>

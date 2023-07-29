@@ -1,5 +1,5 @@
 
-const Home = () => {
+const Valores = () => {
   return (
     <>
       <div className="bg-slate-800 py-32">
@@ -26,4 +26,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Valores
